@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+	<title>Donkey Kong 64 on Nintendo 64</title>
+
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+  
+  <script language="JavaScript">
+
+
+
+<!--
+
+// browser test:
+
+agent = navigator.userAgent;
+
+browserVer = (agent.indexOf("Mozilla/3") == -1 &&
+
+agent.indexOf("Mozilla/4") == -1) ? 0 : 1;
+
+// - - - - - - - - - - - - - - - 
+
+if (browserVer == 1) {
+
+        gClick=" "
+
+	    nav_1 = new Image(49,50);
+		nav_1.src = "images/nav/nav_01.gif";        
+		nav_1_on = new Image(49,50);
+		nav_1_on.src = "images/nav/nav_01_on.gif";
+		nav_1_tv = new Image(141,87);
+		nav_1_tv.src = "images/nav/col_4_2_1.gif";
+
+	    nav_2 = new Image(44,50);
+		nav_2.src = "images/nav/nav_02.gif";        
+		nav_2_on = new Image(44,50);
+		nav_2_on.src = "images/nav/nav_02_on.gif";
+		nav_2_tv = new Image(141,87);
+		nav_2_tv.src = "images/nav/col_4_2_2.gif";
+
+	    nav_3 = new Image(48,50);
+		nav_3.src = "images/nav/nav_03.gif";        
+		nav_3_on = new Image(48,50);
+		nav_3_on.src = "images/nav/nav_03_on.gif";
+		nav_3_tv = new Image(141,87);
+		nav_3_tv.src = "images/nav/col_4_2_3.gif";
+
+	    nav_4 = new Image(49,50);
+		nav_4.src = "images/nav/nav_04.gif";        
+		nav_4_on = new Image(49,50);
+		nav_4_on.src = "images/nav/nav_04_on.gif";
+		nav_4_tv = new Image(141,87);
+		nav_4_tv.src = "images/nav/col_4_2_4.gif";
+
+	    nav_5 = new Image(44,50);
+		nav_5.src = "images/nav/nav_05.gif";        
+		nav_5_on = new Image(44,50);
+		nav_5_on.src = "images/nav/nav_05_on.gif";
+		nav_5_tv = new Image(141,87);
+		nav_5_tv.src = "images/nav/col_4_2_5.gif";
+
+	    nav_6 = new Image(48,50);
+		nav_6.src = "images/nav/nav_06.gif";        
+		nav_6_on = new Image(48,50);
+		nav_6_on.src = "images/nav/nav_06_on.gif";
+		nav_6_tv = new Image(141,87);
+		nav_6_tv.src = "images/nav/col_4_2_6.gif";
+
+	    nav_7 = new Image(49,50);
+		nav_7.src = "images/nav/nav_07.gif";        
+		nav_7_on = new Image(49,50);
+		nav_7_on.src = "images/nav/nav_07_on.gif";
+		nav_7_tv = new Image(141,87);
+		nav_7_tv.src = "images/nav/col_4_2_7.gif";
+
+	    nav_8 = new Image(44,50);
+		nav_8.src = "images/nav/nav_08.gif";        
+		nav_8_on = new Image(44,50);
+		nav_8_on.src = "images/nav/nav_08_on.gif";
+		nav_8_tv = new Image(141,87);
+		nav_8_tv.src = "images/nav/col_4_2_8.gif";
+				
+	    nav_9 = new Image(48,50);
+		nav_9.src = "images/nav/nav_09.gif";        
+		nav_9_on = new Image(48,50);
+		nav_9_on.src = "images/nav/nav_09_on.gif";
+		nav_9_tv = new Image(141,87);
+		nav_9_tv.src = "images/nav/col_4_2_9.gif";
+}
+
+// - - - - - - - - - - - - - - - 
+
+function hiLite(imgDocID,imgObjName) {
+
+// manages mouseOver animations
+
+//   imgDocID - the name or number of the document image to be replaced
+
+//   imgObjName - the name of the image object to be swapped in
+
+	if (browserVer == 1) {
+	
+        if(imgDocID!=gClick) {
+           document.images[imgDocID].src = eval(imgObjName + ".src");
+           
+           // Mouse over
+           if (imgObjName.indexOf("on") != -1) {
+           		       document.images['tv'].src = eval(imgDocID + "_tv.src");
+           // Mouse out
+		   } else {
+		   		       
+		       if (gClick == " ") { // Nothing selected yet
+				       document.images['tv'].src = "images/nav/col_4_2.gif";
+				       			   } else {
+				       			   			 document.images['tv'].src = eval(gClick + "_tv.src");  
+				       			   			 }
+		   }     
+		   }
+	}
+}
+
+function setGlobal (imgDocID){
+	if (gClick!=" "){
+        document.images[gClick].src = eval(gClick + ".src")
+        }
+    gClick=imgDocID
+    document.images[gClick].src = eval(gClick + "_on.src");
+	document.images['tv'].src = eval(gClick + "_tv.src");		
+}
+
+// -->
+
+  </script>
+</head><body topmargin="0" leftmargin="0" style="background-color: rgb(255, 255, 255);" marginheight="0" marginwidth="0">
+<table border="0" cellpadding="0" cellspacing="0">
+
+  <tbody>
+    <tr>
+      <td rowspan="7"> <img src="images/col_3.gif" height="400" width="33"></td>
+      <td colspan="3"> <img src="images/nav/col_4_1.gif" height="49" width="141"></td>
+      <td rowspan="7"> <img src="images/col_5.gif" height="400" width="60"></td>
+      <td> <img src="images/spacer.gif" height="49" width="1"></td>
+    </tr>
+    <tr>
+      <td colspan="3"> <img src="images/nav/col_4_2.gif" name="tv" height="87" width="141"></td>
+      <td> <img src="images/spacer.gif" height="87" width="1"></td>
+    </tr>
+    <tr>
+      <td> <a href="beatdown_menu.html" target="frame_content" onmouseover="hiLite('nav_1','nav_1_on')" onmouseout="hiLite('nav_1','nav_1')" onclick="setGlobal('nav_1')"><img src="images/nav/nav_01.gif" alt="" name="nav_1" border="0" height="50" width="49"></a></td>
+      <td> <a href="buybuybuy_menu.html" target="frame_content" onmouseover="hiLite('nav_2','nav_2_on')" onmouseout="hiLite('nav_2','nav_2')" onclick="setGlobal('nav_2')"><img src="images/nav/nav_02.gif" alt="" name="nav_2" border="0" height="50" width="44"></a></td>
+      <td> <a href="konga_menu.html" target="frame_content" onmouseover="hiLite('nav_3','nav_3_on')" onmouseout="hiLite('nav_3','nav_3')" onclick="setGlobal('nav_3')"><img src="images/nav/nav_03.gif" alt="" name="nav_3" border="0" height="50" width="48"></a></td>
+      <td> <img src="images/spacer.gif" height="50" width="1"></td>
+    </tr>
+    <tr>
+      <td> <a href="mostwanted_menu.html" target="frame_content" onmouseover="hiLite('nav_4','nav_4_on')" onmouseout="hiLite('nav_4','nav_4')" onclick="setGlobal('nav_4')"><img src="images/nav/nav_04.gif" alt="" name="nav_4" border="0" height="50" width="49"></a></td>
+      <td> <a href="project_menu.html" target="frame_content" onmouseover="hiLite('nav_5','nav_5_on')" onmouseout="hiLite('nav_5','nav_5')" onclick="setGlobal('nav_5')"><img src="images/nav/nav_05.gif" alt="" name="nav_5" border="0" height="50" width="44"></a></td>
+      <td> <a href="games_menu.html" target="frame_content" onmouseover="hiLite('nav_6','nav_6_on')" onmouseout="hiLite('nav_6','nav_6')" onclick="setGlobal('nav_6')"><img src="images/nav/nav_06.gif" alt="" name="nav_6" border="0" height="50" width="48"></a></td>
+      <td> <img src="images/spacer.gif" height="50" width="1"></td>
+    </tr>
+    <tr>
+      <td> <a href="rapattack_menu.html" target="frame_content" onmouseover="hiLite('nav_7','nav_7_on')" onmouseout="hiLite('nav_7','nav_7')" onclick="setGlobal('nav_7')"><img src="images/nav/nav_07.gif" alt="" name="nav_7" border="0" height="50" width="49"></a></td>
+      <td> <a href="realjungle_menu.html" target="frame_content" onmouseover="hiLite('nav_8','nav_8_on')" onmouseout="hiLite('nav_8','nav_8')" onclick="setGlobal('nav_8')"><img src="images/nav/nav_08.gif" alt="" name="nav_8" border="0" height="50" width="44"></a></td>
+      <td> <a href="shocknintendo/monkeymail/choosecard.html" target="frame_content" onmouseover="hiLite('nav_9','nav_9_on')" onmouseout="hiLite('nav_9','nav_9')" onclick="setGlobal('nav_9')"><img src="images/nav/nav_09.gif" alt="" name="nav_9" border="0" height="50" width="48"></a></td>
+      <td> <img src="images/spacer.gif" height="50" width="1"></td>
+    </tr>
+    <tr>
+      <td colspan="3" rowspan="2"> <img src="images/nav/col_4_3.gif" usemap="#map" border="0" height="114" width="141"></td>
+      <td> <img src="images/spacer.gif" height="63" width="1"></td>
+    </tr>
+    <tr>
+      <td> <img src="images/spacer.gif" height="51" width="1"></td>
+    </tr>
+  </tbody>
+</table>
+
+<map name="map">
+
+<area shape="rect" coords="15,60 130,90" href="http://www.rareware.com/" target="_new">
+</map>
+
+<!-- 1999 POP! Multimedia...  http://www.popmultimedia.com/-->
+</body></html>
