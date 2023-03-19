@@ -1,0 +1,125 @@
+
+<HTML>
+  <HEAD>
+  <TITLE>Wario Land 4 : Nintendo GameBoy Advance</TITLE>
+  
+  <script language="JavaScript">
+  <!--Hiding Script from older browsers
+  <!--
+  
+  function resolution()
+  
+      {
+  
+      var height=screen.height;
+  
+      var width=screen.width;
+  
+  
+  
+      alert("Your screen resolution is " + width + " x " + height + ".\n\nChoose the size closest to this")
+  
+      }
+  
+  //-->
+  </script>
+  
+  </HEAD>
+  <BODY BGCOLOR="#000000" MARGINWIDTH="0" LEFTMARGIN="0" MARGINHEIGHT="0" TOPMARGIN="0" VLINK="ffcc00">
+  <DIV ALIGN=CENTER>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <TABLE BORDER="0" WIDTH="100%" HEIGHT="99%" CELLSPACING="0" CELLPADDING="0">
+    <TR>
+      <TD ALIGN=CENTER VALIGN=MIDDLE>
+  <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+    <TR>
+      <TD VALIGN="top" ALIGN="center">
+  
+  <!-- Flash Movie plus detection -->
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  function getFlashVersion(){ 
+    // ie 
+    try { 
+      try { 
+        // avoid fp6 minor version lookup issues 
+        // see: http://blog.deconcept.com/2006/01/11/getvariable-setvariable-crash-internet-explorer-flash-6/ 
+        var axo = new ActiveXObject('ShockwaveFlash.ShockwaveFlash.6'); 
+        try { axo.AllowScriptAccess = 'always'; } 
+        catch(e) { return '6,0,0'; } 
+      } catch(e) {} 
+      return new ActiveXObject('ShockwaveFlash.ShockwaveFlash').GetVariable('$version').replace(/\D+/g, ',').match(/^,?(.+),?$/)[1]; 
+    // other browsers 
+    } catch(e) { 
+      try { 
+        if(navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin){ 
+          return (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]).description.replace(/\D+/g, ",").match(/^,?(.+),?$/)[1]; 
+        } 
+      } catch(e) {} 
+    } 
+    return '0,0,0'; 
+  }
+  var plugin = (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"]) ? navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin : 0;
+  if ( plugin ) {
+    plugin = getFlashVersion().split(',').shift() >= 5;
+  }
+  else if (navigator.userAgent && navigator.userAgent.indexOf("MSIE")>=0 
+     && (navigator.userAgent.indexOf("Windows 95")>=0 || navigator.userAgent.indexOf("Windows 98")>=0 || navigator.userAgent.indexOf("Windows NT")>=0)) {
+    document.write('<SCRIPT LANGUAGE=VBScript\> \n');
+    document.write('on error resume next \n');
+    document.write('plugin = ( IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.5")))\n');
+    document.write('</SCRIPT\> \n');
+  }
+  if ( plugin ) {
+    document.write('<OBJECT CLASSID="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"');
+    document.write('  CODEBASE="http://active.macromedia.com/flash2/cabs/swflash.cab#version=4,0,0,0"');
+    document.write('  ID=pokemon WIDTH=760 HEIGHT=395>');
+    document.write('  <PARAM NAME=movie VALUE="main_003.swf">'); 
+    document.write('  <PARAM NAME=quality VALUE=HIGH>');
+    document.write('  <PARAM NAME=menu VALUE=FALSE>');
+    document.write('  <PARAM NAME=scale VALUE=EXACTFIT> <PARAM NAME=bgcolor VALUE=#000000>');
+    document.write(' <EMBED SRC="main_003.swf" MENU=FALSE QUALITY=HIGH SCALE=EXACTFIT BGCOLOR=#000000 ');
+    document.write('        WIDTH=760 HEIGHT=395 TYPE="application/x-shockwave-flash" ');
+    document.write('        PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+    document.write(' </EMBED></OBJECT>');
+  } else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
+    document.write('      <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">');
+    document.write('        <TR>');
+    document.write('          <TD VALIGN="MIDDLE" ALIGN="CENTER">');
+    document.write('	         <A HREF="javascript:self.close();"><IMG SRC="images/broke_flash.gif" ');
+    document.write('	            ALT="You do not have Flash 5" WIDTH="280" HEIGHT="254" BORDER="0"></A>');
+    document.write('	      </TD>');
+    document.write('	    </TR>');
+    document.write('        <TR>');
+    document.write('	      <TD ALIGN="CENTER">');
+    document.write('            <A HREF="HTTP://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" TARGET="_blank"><IMG SRC="images/get_flash.gif" ALT="GET FLASH" WIDTH="100" HEIGHT="55" BORDER="0"></A>');
+    document.write('          </TD>');
+    document.write('        </TR>');
+    document.write('      </TABLE>');
+  }
+  //-->
+  </SCRIPT><NOSCRIPT>
+        <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+          <TR>
+            <TD VALIGN="MIDDLE" ALIGN="CENTER">
+             <A HREF="javascript:self.close();"><IMG SRC="images/broke_flash.gif" 
+                ALT="You don't have Flash 5" WIDTH="280" HEIGHT="254" BORDER="0"></A>
+          </TD>
+        </TR>
+          <TR>
+          <TD ALIGN="CENTER">
+              <A HREF="HTTP://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" TARGET="_blank"><IMG SRC="images/get_flash.gif" ALT="GET FLASH" WIDTH="100" HEIGHT="55" BORDER="0"></A>
+            </TD>
+          </TR>
+        </TABLE>
+  </NOSCRIPT>
+  <!-- /Flash Movie plus detection -->
+  
+  </TD>
+    </TR>
+  </TABLE></TD>
+    </TR>
+  </TABLE>
+  </DIV>
+  </BODY>
+  </HTML>
