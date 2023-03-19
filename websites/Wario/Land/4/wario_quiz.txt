@@ -1,0 +1,141 @@
+question1=Wario is going to town. Jane gives him $10 to buy eggs. Eggs are $2 a dozen. How many eggs will Wario come back with?&
+&ans1_1=A) Five&
+&ans1_2=B) 12&
+&ans1_3=C) 60&
+&ans1_4=D) None, of course&
+&correct_1=4&
+
+&question2=What is the only Monopoly piece a decent person would think of using?&
+&ans2_1=A) Shoe&
+&ans2_2=B) Moneybag&
+&ans2_3=C) Dog&
+&ans2_4=D) Thimble&
+&correct_2=2&
+
+&question3=What is the saddest moment in English literature?&
+&ans3_1=A) James Bond foiling Goldfinger's plot to rob Fort Knox&
+&ans3_2=B) Robin Hood stealing from the kindly Sheriff of Nottingham&
+&ans3_3=C) Ebenezer Scrooge suddenly making nice&
+&ans3_4=D) "Sniff, sob. They're all so tragic!"&
+&correct_3=4&
+
+&question4=If Wario found a bag of money that had fallen from an armored car, he would:&
+&ans4_1=A) Call the police&
+&ans4_2=B) Call the armored car company&
+&ans4_3=C) "Money? What money?"&
+&ans4_4=D) Call a TV station&
+&correct_4=3&
+
+&question5=Poetry: What is considered the most beautiful word in the English language?&
+&ans5_4=D) Love&
+&ans5_2=B) Valor&
+&ans5_3=C) Kindness&
+&ans5_1=A) Dollar&
+&correct_5=1&
+
+&question6=What is the greatest moment in the history of Nintendo games?&
+&ans6_1=A) Samas Aran defeating Mother Brain in Super Metroid&
+&ans6_2=B) Link saving the world in Majora's Mask&
+&ans6_4=D) Mario saving Princess Peach in any game&
+&ans6_3=C) The opening screen of Wario Land 4&
+&correct_6=3&
+
+&question7=Who is the greatest composer of all time?&
+&ans7_1=A) Beethoven&
+&ans7_2=B) Mozart&
+&ans7_3=C) Bach&
+&ans7_4=D) Whoever wrote "Theme to Lifestyles of the Rich and Famous"&
+&correct_7=4&
+
+&question8=If Wario were offered a bag of gold, a bag of diamonds and a bag of rubies, his response would be:&
+&ans8_1=A) "Thanks for the gold."&
+&ans8_2=B) "Diamonds are a guy's best friend."&
+&ans8_3=C) "I'll treasure these rubies forever."&
+&ans8_4=D) "Give me all three!"&
+&correct_8=4&
+
+&question9=Math: A stack of a million dollar-bills would reach:&
+&ans9_1=A) Shaq's chin&
+&ans9_3=C) The top of Mt. Rushmore&
+&ans9_4=D) The moon&
+&ans9_2=B) Not nearly high enough!&
+&correct_9=2&
+
+&question10=Science: When writing out a chemical formula, which symbol should be used for gold?&
+&ans10_1=A) Tn&
+&ans10_2=B) Sn&
+&ans10_4=A) Gd&
+&ans10_3=A) $&
+&correct_10=3&
+
+&question11=What is your best source for honest and fair and balanced news?&
+&ans11_2=B) CNN&
+&ans11_3=C) Fox News&
+&ans11_4=D) MAD Magazine&
+&ans11_1=A) Greedville Post Office&
+&correct_11=1&
+
+&question12=Tomorrow's Blood Pressure, Driftwood and the Island Dog and Soft Shell are all&
+&ans12_1=A) New STARZ! miniseries&
+&ans12_3=C) Songs for Britney Spear's rumored Gothic Rock project&
+&ans12_4=D) Actual names of towns in New Mexico&
+&ans12_2=B) CDs collected by Wario&
+&correct_12=2&
+
+&question13=When bored, Wario...&
+&ans13_1=A) Knits leggings for Peach&
+&ans13_2=B) Thinks kind thoughts about Mario&
+&ans13_3=C) Resolves to stop tying Luigi's shoelaces together&
+&ans13_4=D) Skips rope, lifts weights&
+&correct_13=4&
+
+&question14=The face of what handsome video-game star is emblazoned on the ball in Wario's Homerun Derby?&
+&ans14_1=A) Toad&
+&ans14_2=B) Yoshi&
+&ans14_3=C) Mario&
+&ans14_4=D) Wario. And those other guys can only dream about being good-looking&
+&correct_14=4&
+
+&question15=Vizorman, Large Lips and Black Dragon are all...&
+&ans15_2=B) Candidates for Homecoming King at Greed School&
+&ans15_3=C) Chat room names of the Backstreet Boys&
+&ans15_4=D) Villains in "Crouching Tiger, Hidden Dragon II"&
+&ans15_1=A) Power-ups for sale in Wario Land 4's Item Shops&
+&correct_15=1&
+
+&question16=What happens when Wario catches fire?&
+&ans16_1=A) He melts&
+&ans16_2=B) Matches are banned from Greed School&
+&ans16_4=D) What's for desert? Fricasseed Wario&
+&ans16_3=C) He runs around like his pants are on fire, then turns to ash&
+&correct_16=3&
+
+&question17=Which bizarre event happens in Wario Land 4?&
+&ans17_1=A) Lava turns to ice&
+&ans17_2=B) Sea monsters try to eat Wario&
+&ans17_3=C) Stinging insects pump Wario full of hot air&
+&ans17_4=D) All of the above&
+&correct_17=4&
+
+&question18=If Wario is changed into a zombie, how can he change back?&
+&ans18_1=A) Stop watching stupid TV&
+&ans18_3=C) Go to "Zombies R' Us"&
+&ans18_4=D) Visit paranormal researcher E. Gadd in Luigi's Mansion&
+&ans18_2=B) Fall in water or jump into light&
+&correct_18=2&
+
+&question19=What is the world's most beautiful building?&
+&ans19_1=A) Parthenon&
+&ans19_2=B) Taj Mahal&
+&ans19_4=D) Buckingham Palace&
+&ans19_3=C) Wario Mart&
+&correct_19=3&
+
+&question20=As a matter of fact, Wario is not perfect. What is his only character flaw?&
+&ans20_1=A) Greedy&
+&ans20_2=B) Selfish&
+&ans20_3=C) Mean&
+&ans20_4=D) Excessive modesty&&
+&correct_20=4&
+
+&quiz_eof=true&
