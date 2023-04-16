@@ -1,7 +1,7 @@
 Missing elements
 
-car_head.gif
-newsprint_bg.gif
-wallpaper_dir.gif
-wario1.mov
-wario2.mov
+car_head.gif/n
+newsprint_bg.gif/n
+wallpaper_dir.gif/n
+wario1.mov/n
+wario2.mov/n
