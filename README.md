@@ -8,5 +8,5 @@ For preservation, also because there are a lot of shitpost trolls in preservatio
 ## May I help you?
 Of course, Why not!
 ## Anything you have done?
-lucoshi.github.io/websites/Donkey/Kong/64/index_nsmac.html
-lucoshi.github.io/websites/Donkey/Kong/64/index_ns.html
+https://lucoshi.github.io/websites/Donkey/Kong/64/index_nsmac.html
+https://lucoshi.github.io/websites/Donkey/Kong/64/index_ns.html
