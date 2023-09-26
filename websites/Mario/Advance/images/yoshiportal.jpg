@@ -1,0 +1,873 @@
+
+    
+    
+
+    
+
+    
+
+    
+	
+	
+	
+    
+
+
+
+
+
+
+
+    
+
+
+  
+  
+
+  
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:jx="http://apache.org/cocoon/templates/jx/1.0" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+   
+        <head>
+                <title>Nintendo</title>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+                <link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon" />
+                  
+                
+    	<meta CONTENT="Nintendo's official site | Discover the Nintendo DS portable system, Wii video game console, Wii and Nintendo DS video games, downloadable games, and much more!" NAME="description" /><meta content="Nintendo's official site | Discover the Nintendo DS portable system, Wii video game console, Wii and Nintendo DS video games, downloadable games, and much more!" property="og:description" /><meta CONTENT="- Button, + Button, +Control Pad, 2000 Wii Points, 3D Graphics, 500 Wii Points, A Button, Additional Port, B Button, Backward Compatible, Backwards Compatibility, Battery, Brain, Browser, Chat, Classic Controller, Commercial, Communication, Compete, Connect, Connection, Console, Console Stand, Control Pad, Coral Pink, Disc Channel, Double , Download, Download Station, DS Lite, DS Support, Dual Slot Compatibility, Early Childhood, Entertainment, Entertainment Software Rating Board, ESRB, Everybody Votes Channel, Everyone, Everyone 10+, Exercise your brain, Family, Features, Forecast Channel, Friend Codes, Game Boy, Game Boy Advance , Game Demo, Game paks, Game Review, Gameguide, Gameplay, Gamer, Games, Gaming, GCN Controller, Generation, Genre, Graphics, Handheld, Headphone jack, Internet Channel, Library, Mature 17+, Microphone, Mii, Mii Channel, Miis, N64 Nintendo 64, NEOGEO, NES, News Channel, Nintendo , Nintendo DS, Nintendo DS AC Adapter, Nintendo DS Battery, Nintendo DS Battery Cover, Nintendo DS Lite, Nintendo DS Lite AC Adapter, Nintendo DS Lite Battery, Nintendo DS Lite Battery Cover, Nintendo DS Lite Cartridge Cover Slot, Nintendo DS Lite Stylus, Nintendo DS Wrist Strap, Nintendo Entertainment System, Nintendo Game Boy, Nintendo Game Cube, Nintendo GameBoy, Nintendo GameCube, Nintendo of America Inc., Nintendo Wi-Fi Connection, NOA Keywords, Nunchuck, Nunchuk, Control Stick, Online, Onyx Black, Opera, Parental Control, Parents, Photo Channel, PictoChat, Polar White, Portable, Problem-Solving, Relax, Rendering, Rich Stereo Sound, Sega Genesis, Sensor Bar, Skill, SNES, Stylus, Super Nintendo Entertainment System, System, Teen, Touch Screen Technology, Train, TurboGrafx 16, TV Commercial, Twin, Ultra Bright, Unwind, Video, Video Game, Videogame, Virtual Console, Vote, We, Weather Channel, Wee, Wi, Wi Fi, Wifi, Wi-Fi, Wi-fi, Wi-Fi Hotspot, Wii, Wii AC Adapter , Wii Accessories, Wii AV Cable, Wii Channel, Wii Channels, Wii Customer Service, Wii Customer Support, Wii Message Board, Wii Play, Wii Points, Wii Points Card, Wii Remote, Wii Safety Information, Wii Shop Channel, Wii Sports, Wii Support, Wii Zapper, Wii Zapper Shell, WiiConnect24, Wiimote, Wii-mote, Wireless, Network, Wrist Strap, Zapper" NAME="keywords" /><meta CONTENT="en_US" NAME="locale" /><meta content="IE=8" http-equiv="X-UA-Compatible" /><link href="/feed" rel="alternate" title="Nintendo of America RSS Feed" type="application/rss+xml" /><link href="/css/reset.css,main.css,global_navigation.css,global_footer.css,main_ie_additions.css,global_navigation_ie_additions.css,global_footer_ie_additions.css" rel="stylesheet" type="text/css" /><script src="/js/omniture-prod.js,jquery/jquery.js,jquery/jquery-ui.js,swfobject/swfobject.js,cufon-yui.js,AvenirNextLT.js,tabcontent.js,omniture-init.js,omniture.js,hotspotFinder.js,SpryAccordion.js,customscripts.js,jquery/plugins/jquery.pngie.min.js,jquery/plugins/jquery.hoverIntent.minified.js,jquery/plugins/jquery.prettyPhoto.js,jquery/jquery.qtip-1.0.min.js,jquery/plugins/jquery.jaddress.js,jquery/plugins/jquery.easing.js,jquery/plugins/jquery_jqdropdown.js,foresee/foresee-trigger.js" type="text/javascript"> </script>
+    
+
+								
+								
+								
+								
+                
+                
+                
+                   
+                        
+                        
+                          
+                        
+                        <link href="/css_databound/pages/home/main.css" media="screen" rel="stylesheet" type="text/css" />
+                        
+                
+                
+                
+                
+                
+                
+                   
+                   
+                        <link href="/css/pages/home/main_ie_additions.css" media="screen" rel="stylesheet" type="text/css" />
+                        
+                
+                
+
+                
+                
+                        
+                                <link href="/css/minor_promos.css" media="screen" rel="stylesheet" type="text/css" />
+                        
+                                <link href="/css/site_promos.css" media="screen" rel="stylesheet" type="text/css" />
+                        
+                                <link href="/css/release_calendar.css" media="screen" rel="stylesheet" type="text/css" />
+                        
+                
+
+                
+                
+                
+                        
+                                <link href="/css/minor_promos_ie_additions.css" media="screen" rel="stylesheet" type="text/css" />
+                        
+                                <link href="/css/site_promos_ie_additions.css" media="screen" rel="stylesheet" type="text/css" />
+                        
+                                <link href="/css/release_calendar_ie_additions.css" media="screen" rel="stylesheet" type="text/css" />
+                        
+                
+                
+        </head>
+
+        <body id="body_home" class="home">
+          
+      <div class="hide">
+         <a href="#sectionStart">Skip to Home section</a>
+         <br />
+         <a href="#mainContent">Skip to main content</a>
+      </div>
+      
+      <div id="container">
+	             
+    	<script language="javascript">
+function clearText(thefield){
+if (thefield.defaultValue==thefield.value)
+thefield.value = ""
+} 
+</script><div id="globalNavigation">
+	<div id="primaryNav">
+		<h1><a href="/"> </a></h1>
+		<ul>
+		<li class="major wii"><a href="/wii">Wii</a></li>
+		<li class="major n3ds"><a href="/3ds">Nintendo 3DS</a></li>
+		<li class="major ds"><a href="/ds">Nintendo DS</a></li>
+		<li class="major games"><a href="/games">Games</a></li>
+		
+		<li class="major club"><a href="http://club.nintendo.com/">Club Nintendo</a></li>
+		<li class="major support"><a href="http://support.nintendo.com">Support</a></li>
+		</ul>
+		<form action="/search" id="globalSearch" method="post">
+		
+		<input id="globalSearchKeyword" name="keyword" onFocus="clearText(this)" type="text" value="Search" />
+		<input class="submit" src="/images/interface/global_header/search-btn.png" type="image" value="Search" />
+		
+		
+	</form>
+	</div>
+
+   
+	
+	
+   
+   
+</div><div id="alwaysNav">
+	<div id="primaryNav">
+		<h1><a href="/"> </a></h1>
+		<ul>
+			<li class="major wii"><a href="/wii">Wii</a></li>
+			<li class="major n3ds"><a href="/3ds">Nintendo 3DS</a></li>
+			<li class="major ds"><a href="/ds">Nintendo DS</a></li>
+			<li class="major games"><a href="/games">Games</a></li>
+			
+			<li class="major club"><a href="http://club.nintendo.com/">Club Nintendo</a></li>
+			<li class="major support"><a href="/consumer">Support</a></li>
+		</ul>
+		<form action="/search" id="globalSearch" method="post">
+			
+			<input id="globalSearchKeyword" name="keyword" onFocus="clearText(this)" type="text" value="Search" />
+			
+			<input class="submit" src="/images/interface/global_header/search-btn.png" type="image" value="Search" />
+		</form>
+	</div>
+</div>
+    
+
+           <h1 class="sectionName">Nintendo</h1>
+              
+		   	  <div id="wrapper">
+
+                      
+              <a name="sectionStart"> </a>
+              
+    	<a name="mainContent"> </a><div id="mainContentArea">
+		<script type="text/javascript">
+			util.preLoadImages("/images/home/features/feature_arrow_left_on.png", "/images/home/features/feature_arrow_right_on.png", "/images/home/features/hardware_open_hover.png", "/images/home/features/hardware_close_hover.png" );
+		</script>
+	
+		<div id="consolePromos"> 		
+				<div id="viewport">
+					
+					
+					
+					
+					
+					
+						
+						
+						
+						
+								
+							
+						
+						
+						
+						
+								<a class="cstageimg" id="c_1" name="#888888" onclick="Omniture.trackPromo('Nintendo 3DS_A1', '/3ds', 'homepage_A1');" rel="http://media.nintendo.com/nintendo/bin/kLE2d8XKoeC4c6_A8QxQ-3oezi-sF4i4/hbSBQe6Qs_AOFjb5JZcfs8RNRz8Uo2n3.jpg"><img alt="Nintendo 3DS" border="0" src="http://media.nintendo.com/nintendo/bin/kLE2d8XKoeC4c6_A8QxQ-3oezi-sF4i4/hbSBQe6Qs_AOFjb5JZcfs8RNRz8Uo2n3.jpg" /></a>
+							
+						
+	
+	
+				
+						
+						
+						
+						
+								
+							
+						
+						
+						
+						
+									<a class="cstageimg" id="c_2" name="#69ccdd" onclick="Omniture.trackPromo('Pokémon Rumble Blast_A2', 'http://origin.pokemonrumble.com/blast/', 'homepage_A2');" rel="http://media.nintendo.com/nintendo/bin/FxD-pOvWcgJlXjniGNLsS5_ir6JycQHT/Y0M5Bv4zOzE7UJ9FgM3r69EvhWQsIGQ4.jpg">  </a>		
+							
+						
+	
+	
+				
+						
+						
+						
+						
+								
+							
+						
+						
+						
+						
+									<a class="cstageimg" id="c_3" name="#d9d9d9" onclick="Omniture.trackPromo('Wii console_A3', '/wii/console', 'homepage_A3');" rel="http://media.nintendo.com/nintendo/bin/vHMKJr7TKPvYBGitJXvm8r78drsRucoq/G5qVOG948eKtOrWhyaH4MXMahXS2LNWk.jpg">  </a>		
+							
+						
+	
+	
+				
+						
+						
+						
+						
+								
+							
+						
+						
+						
+						
+									<a class="cstageimg" id="c_4" name="#2a2252" onclick="Omniture.trackPromo('Kirbys Return to Dream Land_A4', 'http://kirby.nintendo.com/returntodreamland/', 'homepage_A4');" rel="http://media.nintendo.com/nintendo/bin/UKy2_HqaNfXFl_1NIsHTl3Wmu6ZWi5nw/LcehBQWUjexvlu1GMtVPhsmAXuvrgp31.jpg">  </a>		
+							
+						
+	
+	
+				
+					
+				</div>
+				
+			
+			<div id="viewport_pag"> </div>
+					
+		</div>
+	
+	</div><div id="trayborder"> </div><div id="hwarea">
+		
+		<div id="topSystemsArea">
+			<div class="traytitle"> </div>
+			<div class="systems">
+				<ul class="systemlist">
+					<li class="syswii"><a href="/wii"><img alt="Wii" border="0" src="/images/home/features/hardware_wii.png" /></a><br /><span class="prices">Just $149.99*</span></li>
+					<li class="divider"><img border="0" src="/images/home/features/sys_brdr.jpg" /></li>
+					<li class="sys3ds"><a href="/3ds"><img alt="Nintendo 3DS" border="0" src="/images/home/features/hardware_3ds.png" /></a><br /><span class="prices">Now $169.99*</span></li>
+					<li class="divider"><img border="0" src="/images/home/features/sys_brdr.jpg" /></li>
+					<li class="sysdsi"><a href="/ds"><img alt="Nintendo DS Systems" border="0" src="/images/home/features/hardware_ds.png" /></a><br /><span class="prices">From $99.99*</span></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="viewbtn">View Hardware</div>
+
+	
+	</div><div id="mainContentArea2">
+	
+		
+	<div id="featurePromos">
+	
+		<div id="smfeatures">
+		
+		
+		
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Nintendo Direct_B1', 'http://www.nintendo.com/nintendo_direct', 'homepage_B1');"><div class="redwrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/f_Ie4cVLiL2FGZn8L6ZYwgvL5cGu7iWi/eYetZnHciHotFP-oirg2KC4P-3bpswuO.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Super Mario 3D Land_B2', 'http://supermario3dland.nintendo.com/', 'homepage_B2');"><div class="redwrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/9sU2UescmvT9VntDWuxvTwjm3c6MODZO/Y15I6_WjjVEXd-I-rDh37xeB8MvGR-Qo.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Star Fox 64 3D_B3', 'http://starfox643d.nintendo.com/', 'homepage_B3');"><div class="redwrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/bclRSAZgxhy9yv5hxKm5BsTdvPi5wrmJ/uXnrIo6ERLhwEnPHMk_NRu923zQlUIfu.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Professor Layton and the Last Specter_B4', 'http://professorlayton.nintendo.com/thelastspecter/', 'homepage_B4');"><div class="redwrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/IDrqWp-TZWz0MRMfUJeLMuoqgBtjf7-G/o8T2MTzLL28sPfwfmTTefzQbd_JHiZLu.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('The Legend of Zelda: Ocarina of Time 3D_B5', 'http://www.zelda.com/ocarina3d/', 'homepage_B5');"><div class="redwrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/jnbdHQtk5bbBF5AZmV4dr71cyAwEqQWf/n3MqDwS3ab_X3TEN8wO2LnNsMP1-yDaH.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Disney Universe_B6', 'http://www.nintendo.com/games/detail/Za4x160umJjALeYtau69bP86k54U9k5R', 'homepage_B6');"><div class="bluewrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/tgxAiPBNHvbAmMO8-lu6pnM95DVqoEMO/OU3pt0GRHp6S5cVlxDnoP_YwZOQUJy8e.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('The Legend of Zelda: Skyward Sword_B7', 'http://www.zelda.com/skywardsword', 'homepage_B7');"><div class="bluewrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/M1LLVf-vSzmvPrMrqzimlXOUncEujJeB/UsQwo-tkwXY4kWZrND5WinNj-DX77rk7.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Kirby Mass Attack_B8', 'http://kirby.nintendo.com/massattack/', 'homepage_B8');"><div class="redwrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/MggBgUv5_aoR2eLyQA5nra1hiODIgvxJ/f_jH_-mCGhzUkn68flfX3VvBEA9msoKW.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Just Dance 3_B9', 'http://www.nintendo.com/games/detail/7ZMBSihTzGH1wd7srRwqaiuMDia7rrUm', 'homepage_B9');"><div class="bluewrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/-ErDCIzJOZi9U_s2BG0lMUp4QveohSSU/L54iyO0y-Swn2kC5ONUiNe-M60aqJg6a.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Skylanders Spyros Adventure_B10', 'http://www.nintendo.com/games/detail/JNstNzu16Lns6cwke7v3ko1eSr0blym-', 'homepage_B10');"><div class="redwrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/w-MNFRHPkvAo6XOyWKuHq3uw1egF2Wui/C3Q5kghUce1x9K3FVDuwTXZJg6EkimlG.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Mario Kart 7_B11', 'http://www.nintendo.com/games/detail/59JiheYMlzjHqlmUHkP5ESn3QOUHqyOq', 'homepage_B11');"><div class="redwrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/XTUKduDYUcEWUyWI47C-5DfpA9E6XGYt/yjQZkUxfbJGBn8MSGiHA6QCcaraJLSxL.png" /></div></a>
+
+				
+				
+			
+				
+				
+				
+				
+				
+						
+					
+				
+				
+						
+					
+				
+				<a onclick="Omniture.trackPromo('Nintendo Network at E3 2011_B12', 'http://e3.nintendo.com/', 'homepage_B12');"><div class="bluewrap"><img alt="" border="0" class="buffer" src="http://media.nintendo.com/nintendo/bin/cntYtaJr3-x_zP36evWCl84wn5u-EG8T/BFbjyQ-8b9hoakNmCUa_C9VIyq5RWdYa.png" /></div></a>
+
+				
+				
+			
+		
+		
+			
+			
+		
+			
+			
+		</div>
+		
+		<a id="featPrevious"> </a>
+		<a id="featNext"> </a>
+		
+		<div class="pagination" id="smfeatures_pag"> </div>
+		<span class="overblock"> <a class="overclose" href="">Close Window</a> </span>
+	
+	</div>
+	
+	
+	<div id="bottom_area">
+		<div id="bpromo">
+			<div class="imageArea"><a onclick="Omniture.trackPromo('Search For Games_C1', '/games/', 'homepage_C1');"><img alt="Search for Games" border="0" src="/images/home/features/tile_newbadge.jpg" /></a> </div>
+			<div class="baseTextBlock">
+				<div class="redText"><a onclick="Omniture.trackPromo('Search For Games_C1', '/games/', 'homepage_C1');">Find Games</a></div>
+				Browse based on your interests, view best-sellers, and more!
+			</div>
+		</div>
+		<div id="bpromo">
+			<div class="imageArea"><a onclick="Omniture.trackPromo('WiiConnect_C2', 'http://us.wii.com/connect', 'homepage_C2');"><img alt="Connect with Wii" border="0" src="/images/home/features/tile_connectwii.jpg" /></a> </div>
+			<div class="baseTextBlock">
+				<div class="redText"><a onclick="Omniture.trackPromo('WiiConnect_C2', 'http://us.wii.com/connect', 'homepage_C2');">Connect with Wii</a></div>
+					 Download classic games, stream movies, and more!
+				</div>
+			</div>
+		<div id="bpromo">
+			<div class="imageArea"><a onclick="Omniture.trackPromo('Club Nintendo_C3', 'https://club.nintendo.com/', 'homepage_C3');"><img alt="Club Nintendo" border="0" src="/images/home/features/tile_clubn.jpg" /></a> </div>
+			<div class="baseTextBlock">
+				<div class="redText"><a onclick="Omniture.trackPromo('Club Nintendo_C3', 'https://club.nintendo.com/', 'homepage_C3');">Club Nintendo</a></div>
+				Register Nintendo products to earn exclusive rewards.
+			</div>
+		</div>
+		<div id="bpromo">
+			<div class="imageArea"><a onclick="Omniture.trackPromo('Nintendo Support_C4', 'http://www.nintendo.com/support', 'homepage_C4');"><img alt="Nintendo Support" border="0" src="/images/home/features/tile_support.jpg" /></a> </div>
+			<div class="baseTextBlock">
+				<div class="redText"><a onclick="Omniture.trackPromo('Nintendo Support_C4', 'http://www.nintendo.com/support', 'homepage_C4');">Nintendo Support</a></div>
+				Need help with your Wii, Nintendo 3DS or Nintendo DS products?
+			</div>
+		</div>
+
+	</div>
+	
+	<a class="feedlinks" href="/whatsnew"> 
+	<div id="whatsnewfeed" onClick="window.location.href = '/whatsnew'">
+		<a class="feedlinks" href="/whatsnew"><div class="padder">
+			<ul id="wlist">
+				
+					<li> The Legend of Zelda 25th Anniversary Site with More Flipnote Winners and Celeb Fan Memories </li>
+				
+					<li> Link Journeys Back Into the Heat of the Action in The Legend of Zelda: Skyward Sword for Wii </li>
+				
+					<li> New Nintendo DSi XL Bundles Add Color and Mayhem to the Holidays </li>
+				
+					<li> Nintendo Proves Pink is Powerful with Kirby's Return to Dream Land for Wii </li>
+				
+					<li> Hulu Plus Coming to Nintendo Systems as Nintendo 3DS Preps for 3D Video Recording </li>
+				 
+			</ul>
+		</div></a>
+		<div class="rssbtn"><a href="/feed" onClick="Omniture.pageTrack('rss:whatsnew');"><img alt="Subscribe to RSS Feed" border="0" src="/images/home/features/rss_button.png" /></a></div>
+	</div>
+	</a>
+	
+	<a class="feedlinks" href="/games/releasecalendar"> 
+	<div id="releasefeed" onClick="window.location.href = '/games/releasecalendar'">
+		<a class="feedlinks" href="/games/releasecalendar"><div class="padder">
+			<ul id="rlist">
+				
+					<li> Professor Layton and the Last Specter   —   Oct, 2011 </li>
+				
+					<li> Skylanders Spyros Adventure   —   Oct, 2011 </li>
+				
+					<li> Skylanders Spyros Adventure   —   Oct, 2011 </li>
+				
+					<li> MAHJONG CUB3D   —   Oct, 2011 </li>
+				
+					<li> Marvel Super Hero Squad: The Infinity Gauntlet   —   Oct, 2011 </li>
+				
+			</ul>
+		</div></a>
+		<div class="rssbtn"><a href="/gamefeed" onClick="Omniture.pageTrack('rss:releasefeed');"><img alt="Subscribe to RSS Feed" border="0" src="/images/home/features/rss_button.png" /></a></div>
+	</div>
+	</a>
+	
+	
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+		
+		var currentFrame;
+		var centerStageSpeed = 1600;
+		var centerStageInterval = 6000;
+		var paginationInterval;
+		
+		function onBefore(currSlideElement, nextSlideElement, options) {
+			removeCurrentPagination();
+			paginationInterval = setInterval(animateCurrentPagination, centerStageInterval/4.5);
+			animateCurrentPagination();			
+			insertBanner("#"+nextSlideElement.id, nextSlideElement.rel, nextSlideElement.name);
+		}
+	
+		function insertBanner(elem, imgUrl, elemBG) {
+				$("#mainContentArea").stop().animate({'background-color': String(elemBG)}, centerStageSpeed-300); //average estimation for fade in of BG
+				
+				//if element exist
+				if ($(elem +" a img").length > 0){
+					//element exist
+				} else {
+					var imgLoader = new Image();
+					$(imgLoader).attr('src', imgUrl);
+					$(imgLoader).load(function () {	
+						$(elem).html('<img border="0" src="'+imgUrl+'" />');
+					});
+				}
+		}
+		
+		function animateCurrentPagination() {
+			currentFrame = (currentFrame >= 5) ? currentFrame=1 : currentFrame+1;			
+			var showFrame = "frame" +currentFrame;
+			
+			$(".activeSlide").removeClass().addClass("activeSlide").addClass(showFrame);
+			
+		}
+		
+		function removeCurrentPagination() {
+			clearInterval(paginationInterval);
+			currentFrame = 0;
+			$(".activeSlide").removeClass()
+		}
+		
+		
+		function pageClick(zeroBasedSlideIndex, slideElement)   {
+			elemBG = slideElement.name;
+			$("#mainContentArea").css({'background-color': String(elemBG)});
+		}
+		
+		
+		$('#viewport').cycle({
+				fx: 'fade', 
+				speed:  centerStageSpeed,
+				timeout: 6000,
+				pause: 1,
+				width: 977,
+				height: 431,
+				pager: '#viewport_pag',
+				before: onBefore,
+				onPagerEvent: pageClick 
+			});
+		
+		
+		$("#smfeatures").carouFredSel({
+			  width: 980,
+			  height: 174,
+			  auto: false,
+			  items: {
+				  visible: 4,
+				  height: 174,
+				  width: 249
+			  },
+			  scroll: {
+				  items: 4
+			  },
+			  prev : {
+			  	button		: "#featPrevious",
+				duration	: 600
+			  },
+			  next : {
+			  		button: "#featNext",
+					duration: 600,
+					easing: "easeInOutQuad"
+				},
+			  pagination: {
+			  	container: "#smfeatures_pag",
+				duration: 800,
+				easing: "swing"
+			  }
+		  });
+		
+				
+		$("#rlist").carouFredSel({
+			width: 660,
+			height: 16,
+			auto: true,
+			direction: "up",
+			items: {
+				visible: 1,
+				width: 660,
+				height: 16,
+				top: 6
+			},
+			scroll: {
+				items: 1,
+				duration: 1200,
+				pauseOnHover: true
+			}
+		});
+		
+		$("#wlist").carouFredSel({
+			width: 660,
+			height: 16,
+			auto: true,
+			direction: "up",
+			items: {
+				visible: 1,
+				width: 660,
+				height: 16,
+				top: 6
+			},
+			scroll: {
+				items: 1,
+				duration: 1600,
+				pauseOnHover: true
+			}
+		});				  
+		});
+		
+		
+		tray = {
+		isOpen: true,
+	
+		open : function(){
+				$(".traytitle").fadeIn();
+				$(".systemlist").fadeIn();
+				$("#hwarea").animate({top: -12});
+				$(".viewbtn").css("background-image", "url('images/home/features/hardware_close.png')");
+				$(".viewbtn").animate({top: -2});
+				$("#topSystemsArea").animate({height: 278});
+				tray.isOpen = true;
+				Omniture.trackLink(6, "Cookie Tray", 32, "Cookie Tray");
+			},
+		close : function(dontAnimate){		
+				if(dontAnimate){
+					$(".traytitle").hide();
+					$(".systemlist").hide();
+					$("#hwarea").css({top: 0});
+					$(".viewbtn").css('top', '0');
+					$("#topSystemsArea").css('height', '0');
+				} else { 		
+					$(".traytitle").fadeOut();
+					$(".systemlist").fadeOut();
+					$("#hwarea").animate({top: 0});					
+					$(".viewbtn").animate({top: 0});
+					$("#topSystemsArea").animate({height: 0});
+					Omniture.trackLink(6, "Cookie Tray", 33, "Cookie Tray");
+				}
+				$(".viewbtn").css("backgroundImage", "url('images/home/features/hardware_open.png')");
+				tray.isOpen = false;
+			}
+		};
+		
+	$(".viewbtn").live('click', function() {
+		if(tray.isOpen) {
+			tray.close();		
+		} else {
+			tray.open();
+		}
+		
+	});
+	
+	if ($.browser.msie && $.browser.version=="6.0") {
+		tray.open(); //leave tray open
+		$(".viewbtn").hide(); //disable viewbutton
+	} else {
+	  tray.close(true); //close without opening
+	}
+	
+	//Omniture
+	Omniture.config('home');
+	Omniture.pageTrack('home', true); //pagename, isHome, isVanity
+	
+
+	//Initialize tray to open on page load and close a few seconds later
+	tray.open();
+	var trayClose = setTimeout("tray.close()", 3000); 
+
+
+	</script>
+
+	<span class="disclaimer">* MSRP: Manufacturer's Suggested Retail Price. Actual price may vary. See retailer for details.</span>
+	
+	
+	</div>
+    
+              </div>
+                   
+    	<div id="footer">
+    
+				<div class="listsetReg">
+					<ul class="graylist">
+						<li class="majornode"><a class="title" href="/corp">About Nintendo</a> </li>
+						<li><a href="/corp">Company Info</a> </li>
+						<li><a href="/countryselector">Country Selector</a> </li>
+						<li><a href="http://www.nintendo.com/?country=CA&amp;lang=en">Nintendo of Canada</a> </li>
+						<li><a href="/corp/ippolicy.jsp">IP Policy</a></li>
+						<li><a href="/sitemap">Sitemap</a> </li>
+					</ul>
+				</div>
+				<div class="listsetReg">
+					<ul class="graylist">
+						<li class="majornode"><a class="title" href="/consumer/retail/retail_retailers.jsp">Where To Buy</a> </li>
+						<li><a href="/consumer/retail/retail_retailers.jsp">List of Online Retailers</a> </li>
+						<li><a href="http://www.nintendoworldstore.com/">Nintendo World Store</a> </li>
+						<li><a href="http://store.nintendo.com">Online Store</a> </li>
+					</ul>
+				</div>
+				<div class="listsetWide">
+					<ul class="graylist">
+						<li class="majornode"><a class="title" href="/consumer">Support</a></li>
+						<li><a href="/consumer/systems/3ds/en_na/index.jsp">Nintendo 3DS Support</a> </li>
+						<li><a href="/consumer/systems/selectds.jsp">Nintendo DS Support</a> </li>
+						<li><a href="/consumer/systems/wii/en_na/index.jsp">Wii Support</a> </li>
+						<li><a href="/consumer/repair">Repair Help</a> </li>
+						<li><a href="/consumer/recycle.jsp">Nintendo Product Recycling</a> </li>
+					</ul>
+				</div>
+				<div class="listsetReg">
+					<ul class="graylist">
+						<li class="majornode"><a class="title" href="/parents">Parents</a> </li>
+						<li><a href="/parents">Info for Parents</a></li>
+						<li><a href="/corp/parents.jsp">Parental Controls</a></li>
+						<li><a href="/consumer/wiiplay.jsp">Safety Precautions</a></li>
+					</ul>
+				</div>
+				<div class="listbdr"> </div>
+				<div class="listlegal">
+					<ul class="graylist">
+						<li class="legaltitle"><a class="title" href="/healthandsafety">Health & Safety/Privacy</a> </li>
+						<li><a href="/consumer/pinrecall.jsp">Character Lapel Pin Recall</a> </li>
+						<li><a href="/consumer/jacket/jacketrequest.jsp">Wii Remote Jacket Accessory Offer</a></li>
+						<li><a href="/consumer/manuals/healthsafety.jsp">Health & Safety Precautions Manual</a></li>
+						<li><a href="/consumer/strapreplace.jsp">Wii Remote Wrist Strap Offer</a></li>
+						<li><a href="/privacy">Privacy Policy</a></li>
+					</ul>
+				</div>
+			
+		
+	</div><script type="text/javascript">
+		Cufon.replace('#footer ul.graylist li.majornode', {hover: true});
+		Cufon.replace('#footer ul.graylist li.legaltitle', {hover: true});
+
+		Cufon.now();
+	</script><div id="ninfooter">
+		<div class="mainarea">
+			<ul id="footerContent">
+				<li id="nintendoLogo">Nintendo</li>
+				<li id="copyrightTxt"><strong>© 2011 Nintendo. Games are property of their respective owners.</strong><br />
+				Nintendo of America Inc. Headquarters are in Redmond, Washington</li>
+				 
+				<li id="shareLinks">
+					<a href="/contact">Contact Us</a><br />
+					<a href="" onClick="Omniture.trackNsignup('http://www.nintendo.com/consumer/newsletters/?referer=www.nintendo.com/home')">Newsletter Signup</a><br />
+				</li>
+				<li id="shareLinks2">
+					<a href="/corp/webform.jsp">Website Feedback</a><br />
+					<span class="findus">Find Us:</span> 
+					<a href="http://www.facebook.com/nintendo" onClick="Omniture.trackFacebook()" target="_blank"> <img border="0" src="/images/home/features/facebook_icon.png" /></a>
+					<a href="http://twitter.com/NintendoAmerica" onClick="Omniture.trackTwitterNOA()" target="_blank"> <img border="0" src="/images/home/features/twitter_icon.png" /></a>
+					<a href="http://www.youtube.com/nintendo" onClick="Omniture.trackYouTube()" target="_blank"><img border="0" src="/images/home/features/youtube_icon.png" /> </a>
+				</li>
+				
+			</ul>
+			<div class="esrbpriv">
+				<p><a href="/privacy" target="_blank" title="Nintendo's Privacy Policy">Nintendo's Online Privacy Policy</a></p>
+				<p class="esrb-badge"><a href="/privacy" target="_blank"><img alt="" src="/images/icons/esrb_privacy.gif" /></a></p>
+			</div>
+		</div>
+	
+	</div>
+    
+    
+	</div>
+  
+          
+        </body>
+</html>
