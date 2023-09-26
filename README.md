@@ -14,4 +14,4 @@ https://lucoshi.github.io/websites/Donkey/Kong/64/index_ie4mac.html
 https://lucoshi.github.io/websites/Donkey/Kong/64/index_ns.html
 https://lucoshi.github.io/websites/Donkey/Kong/64/index_nsmac.html
 https://lucoshi.github.io/websites/Mario/Advance/index.html
-https://lucoshi.github.io/websites//Wario/Land/4/index.html
+https://lucoshi.github.io/websites/Wario/Land/4/index.html
