@@ -1,0 +1,129 @@
+
+<!-- saved from url=(0089)https://web.archive.org/web/20140620194102id_/http://welcometogreedville.com/buy.html?car -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Warioland 4: Buy</title>
+
+<script language="JavaScript">
+<!-- hide me
+
+	// if there's no cookie, return false else get the value and return it
+	function WM_readCookie(name)
+	{
+	  if(document.cookie == '') return false;
+	  else return unescape(WM_getCookieValue(name));	
+	}
+
+
+	// This next little bit of code tests whether the user accepts cookies.
+	var WM_acceptsCookies = false;
+	if(document.cookie == '')
+	{
+	    document.cookie = 'WM_acceptsCookies=yes';
+	    if(document.cookie.indexOf('WM_acceptsCookies=yes') != -1)
+	    {
+		WM_acceptsCookies = true; 
+	    }
+	} else {
+	  WM_acceptsCookies = true;
+	}
+
+
+	function WM_setCookie (name, value, hours, path, domain, secure)
+	{
+	    if (WM_acceptsCookies)
+	    {
+		var not_NN2 = (navigator && navigator.appName 
+			       && (navigator.appName == 'Netscape') 
+			       && navigator.appVersion 
+			       && (parseInt(navigator.appVersion) == 2))?false:true;
+		if(hours && not_NN2)
+		{
+		    if ( (typeof(hours) == 'string') && Date.parse(hours) ) {
+			var numHours = hours;
+		    } else if (typeof(hours) == 'number') {
+			var numHours = (new Date((new Date()).getTime() + hours*3600000)).toGMTString();
+		    }
+		}
+		document.cookie = name + '=' + escape(value) + ((numHours)?(';expires=' + numHours):'') + ((path)?';path=' + path:'') + ((domain)?';domain=' + domain:'') + ((secure && (secure == true))?'; secure':'');
+	    }
+	} // WM_setCookie
+	
+	
+	
+	function WM_getCookieValue(name)
+	{
+	  var firstChar, lastChar;
+	
+	  var theBigCookie = document.cookie;
+	  firstChar = theBigCookie.indexOf(name);
+	  if(firstChar != -1)
+	  {
+	    firstChar += name.length + 1;	
+	    lastChar = theBigCookie.indexOf(';', firstChar);	
+	    if(lastChar == -1) lastChar = theBigCookie.length;	
+	    return theBigCookie.substring(firstChar, lastChar);	
+	  } else {
+	    return 0;
+	  }
+	}
+	function popWarioShop(url) {
+		popupWin = window.open(url, "warioshop","scrollbars=yes");
+	}
+	
+	function popSmallWarioShop(url) {
+		popupWin = window.open(url, "wariobroke","width=415,height=315");
+	}
+	
+	function earn_bucks(amount)
+	{ 
+	  var oldbucks = WM_readCookie("wariobucks");
+
+	  if ((oldbucks==false)||(oldbucks==0))
+		WM_setCookie("wariobucks",amount);
+	  else
+		WM_setCookie("wariobucks",parseInt(amount) + parseInt(oldbucks));
+	  return true;
+	}
+	
+	function spend_bucks(amount)
+	{
+	  var oldbucks = WM_readCookie("wariobucks");
+	  if ((oldbucks==false)||(oldbucks==0))
+		return false;
+	  else {
+		if (parseInt(amount)>parseInt(oldbucks))
+		  return false;
+		else {
+		  WM_setCookie("wariobucks",parseInt(oldbucks)-parseInt(amount));
+		  return true;
+		}
+	  }
+	  return true;
+	}
+	
+	function dostuff() {
+	  if(spend_bucks(20))
+	  {
+   	    self.parent.frames[1].location.reload();
+		popWarioShop(window.location.search.substr(1,window.location.search.length) + ".html");
+	  } else
+	  {
+	    self.parent.frames[1].location.reload();
+	    popSmallWarioShop('nomoney.html');
+	  }
+	  
+	}
+// -->
+</script>
+</head>
+<body onload="dostuff();" bgcolor="#000000" marginwidth="0" leftmargin="0" marginheight="0" topmargin="0" vlink="ffcc00">
+<div align="CENTER">
+<table border="0" width="100%" height="99%" cellspacing="0" cellpadding="0">
+  <tbody><tr>
+    <td align="CENTER" valign="MIDDLE">
+	<font color="WHITE">You should not see this</font></td>
+  </tr>
+</tbody></table>
+</div>
+
+</body></html>
