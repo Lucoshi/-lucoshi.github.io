@@ -8,4 +8,4 @@ For preservation, also because there are a lot of troublesome trolls in preserva
 ## May I help you?
 Of course, Why not!
 ## Anything you have done?
-
+https://lucoshi.github.io/website/Wario/Land/4/splash.html
