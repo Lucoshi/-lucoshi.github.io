@@ -1,0 +1,22 @@
+a.link { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color:white;}
+v.link { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color:purple;}
+a.link.visited { font-family: Arial, Verdana, Helvetica, sans-serif; font-size: 8pt; font-weight: bold; color:red;}
+
+body.fonts { font-family: Arial, Verdana, Helvetica, sans-serif }
+
+td { font-family: Arial, Verdana, Helvetica, sans-serif; font-size:8pt; color:white }
+
+textarea.fonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: normal; font-size: 8pt }
+input.fonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: normal; font-size: 8pt; background-color: #156116; }
+input.centerfonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: normal; font-size: 8pt; text-align: center }
+select.fonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: normal; font-size: 8pt; background-color: #156116; }
+td.fonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: normal; font-size: 8pt; color:white }
+td.errorfonts { font-family: Arial, Verdana, Helvetica, sans-serif; color: red; font-weight: normal; font-size: 8pt }
+td.boldfonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; font-size: 8pt; color:white }
+td.boldbiggerfonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; font-size: 12pt; color:white }
+td.boldbigger { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; font-size: 10pt; color:white }
+th.fonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: normal; font-size: 8pt; color:white }
+th.boldfonts { font-family: Arial, Verdana, Helvetica, sans-serif; font-weight: bold; font-size: 8pt; color:white }
+
+radio.fonts { background-color: #156116; }
+
