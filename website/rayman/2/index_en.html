@@ -1,0 +1,280 @@
+
+<HTML>
+<HEAD>
+<TITLE>Rayman 2 - Ubi Soft Entertainment</TITLE>
+<META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<SCRIPT language="JavaScript">
+<!--
+function MM_preloadImages() { //v1.2
+  if (document.images) {
+    var imgFiles = MM_preloadImages.arguments;
+    var preloadArray = new Array();
+    for (var i=0; i<imgFiles.length; i++) {
+      preloadArray[i] = new Image;
+      preloadArray[i].src = imgFiles[i];
+    }
+  }
+}
+
+function MM_swapImage() { //v1.2
+  var i,j=0,objStr,obj,swapArray=new Array,oldArray=document.MM_swapImgData;
+  for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+    objStr = MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1];
+    if ((objStr.indexOf('document.layers[')==0 && document.layers==null) ||
+        (objStr.indexOf('document.all[')   ==0 && document.all   ==null))
+      objStr = 'document'+objStr.substring(objStr.lastIndexOf('.'),objStr.length);
+    obj = eval(objStr);
+    if (obj != null) {
+      swapArray[j++] = obj;
+      swapArray[j++] = (oldArray==null || oldArray[j-1]!=obj)?obj.src:oldArray[j];
+      obj.src = MM_swapImage.arguments[i+2];
+  } }
+  document.MM_swapImgData = swapArray; //used for restore
+}
+
+function MM_displayStatusMsg(msgStr) { //v1.2
+  status=msgStr;
+  document.MM_returnValue = true;
+}
+
+var server;
+var url;
+var servchoice = new Array(0,0);
+
+
+function amerselected ()
+{
+	servchoice[0]=1
+}
+function euroselected ()
+{
+	servchoice[1]=1
+}
+function news (server,url) 
+{
+  var navigateur;
+  var bName = navigator.appName; 
+  var bVer = parseInt(navigator.appVersion); 
+
+/****************************************
+TEST IF SERVCHOICE[0] == 1 OU 0 IF 1 AMER
+TEST IF SERVCHOICE[1] == 1 OU 0 IF 1 EURO
+TEST IF SERVCHOICE[0,1] == NAN/ELSE  AMER
+*****************************************/ 
+	
+	
+	if (servchoice[0] == 1)
+	{
+		server = 'http://www.rayman2.com/';
+	}
+	
+	if (servchoice[1] == 1)
+	{
+		server = 'http://www.ubisoft.fr/sites/rayman2/';
+	}
+	
+	else 
+	{
+		server = '';
+	}
+
+	if (bName == "Microsoft Internet Explorer")
+	{
+			var rayman=window.open (server+url,'rayman2','scrollbars=no,menubar=yes,status=yes,resizable=no,width=633,height=381');
+	}
+
+	else if (bName == "Netscape")
+	{
+      			var rayman=window.open (server+url,'rayman2','scrollbars=no,menubar=yes,status=yes,resizable=no,width=630,height=400');
+	}
+	else 
+	{
+  			var rayman=window.open (server+url,'rayman2','scrollbars=no,menubar=yes,status=yes,resizable=no,width=630,height=400');
+	}
+	//servchoice[0]=0;
+	//servchoice[1]=0;
+}
+//-->
+</SCRIPT>
+</HEAD>
+
+<BODY bgcolor="#000000" text="#FFFFFF" link="#FFCC00">
+<SCRIPT language='JavaScript'>
+<!--
+  MM_preloadImages('images/black.gif');
+  MM_preloadImages('images/map_noselect_anim.gif');
+  MM_preloadImages('images/map_amerselect.gif');
+  MM_preloadImages('images/map_euroselect.gif');
+//-->
+</SCRIPT>
+<TABLE border="0" width="100%" height="100%" vspace="0" hspace="0" cellspacing="0" cellpadding="0">
+  <TR>
+    <TD align="center" valign="middle">
+      <TABLE border="0" width="700" height="*" align="center" valign="center" >
+        <TR> 
+          <TD valign="top" width="423" rowspan=2><A href="http://www.ubisoft.com" target="_self" onMouseOver="MM_displayStatusMsg('Back to Ubi Soft web site');return document.MM_returnValue"><IMG src="images/ubisoft.gif" width="100" height="40" border="0" alt="Ubi Soft"></A> 
+            <BR>
+            <TABLE border="0" width="100%">
+              <TR> 
+                <TD width="323" align="center"><IMG src="images/1.gif" width="77" height="49" align="left" name="one" alt="Choose your location" border="0"> 
+                  <FONT face="Verdana, Arial, Helvetica, sans-serif" size="5"><B><FONT size="4">Choose 
+                  your <I>location</I></FONT><I></I></B></FONT></TD>
+                <TD width="180" rowspan=2 align="center"><BR>
+                  <BR>
+                  <IMG src="images/rm_run_blur.jpg" width="180" height="202" border="0"></TD>
+                <TD width="180" rowspan=2 align="center"><IMG src="images/black.gif" border=0 width="20" height="183" align="bottom"></TD>
+              </TR>
+              <TR> 
+                <TD align="center" width="323">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="#" onMouseOver="MM_displayStatusMsg('Click Map ');return document.MM_returnValue"><IMG src="images/map_noselect_anim.gif" width="162" height="92" usemap="#map_select" name="map_noselect" border="0" alt="Click Map"></A></TD>
+              </TR>
+            </TABLE>
+          </TD>
+          <TD align="center" valign="top" width="275"><IMG src="images/rm2_logo_big.gif" width="250" height="108"></TD>
+        </TR>
+        <TR> 
+          <TD width="275" align="right" valign="bottom" height="48"> 
+            <TABLE border="0" height="*" cellspacing="0" cellpadding="0" vspace="0" hspace="0" align="right">
+              <TR> 
+                <TD width="35" align="right"> <IMG src="images/black.gif" border=0 width="35" height="8" name="flash1"></TD>
+                <TD width="118" align="right"><IMG src="images/black.gif" border=0 width="100" height="8" align="absmiddle"></TD>
+                <TD width="20" rowspan=7 align="center" valign="bottom"> <IMG src="images/black.gif" border=0 width="20" height="183" align="bottom"></TD>
+                <TD width="36" align="left"> <IMG src="images/black.gif" border=0 width="35" height="8" name="flash2"></TD>
+                <TD width="81" align="left"><IMG src="images/black.gif" border=0 width="80" height="1" align="absmiddle"></TD>
+              </TR>
+              <TR> 
+                <TD width="35" height="14"> 
+                  <DIV align="center"><FONT size=-1 face="Arial"><A href="Javascript: news(server,'en/enter.html');" onMouseOver="MM_displayStatusMsg('English');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_us.gif" border=0 alt="English  North America" width="30" height="30"></A> 
+                    </FONT></DIV>
+                </TD>
+                <TD width="118" height="14"><FONT size=-1 face="Arial"><A href="Javascript: news(server,'en/enter.html');" onMouseOver="MM_displayStatusMsg('English North America');return document.MM_returnValue" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">English 
+                  <BR>
+                  North America</A></FONT> </TD>
+                <TD width="36" height="14"> 
+                  <DIV align="center"><FONT size=-1 face="Arial"> <A href="Javascript:news(server,'fr/enter.html');" onMouseOver="MM_displayStatusMsg('Fran&ccedil;ais');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"> 
+                    <IMG src="images/flag_france.gif" border=0 alt="Fran&ccedil;ais" width="25" height="25"></A></FONT> 
+                  </DIV>
+                </TD>
+                <TD width="81" height="14"> 
+                  <DIV align="left"> <FONT size=-1 face="Arial"><A href="Javascript:news(server,'fr/enter.html');" onMouseOver="MM_displayStatusMsg('Fran&ccedil;ais');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">Fran&ccedil;ais</A></FONT> 
+                  </DIV>
+                </TD>
+              </TR>
+              <TR> 
+                <TD width="35" align="right" height="14"> 
+                  <DIV align="center"> <FONT size=-1 face="Arial"><A href="Javascript: news(server,'uk/enter.html');" onMouseOver="MM_displayStatusMsg('English UK');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_uk.gif" border=0 alt="English - UK" width="30" height="30"></A></FONT> 
+                  </DIV>
+                </TD>
+                <TD width="118" align="right" height="14"> 
+                  <DIV align="left"><FONT size=-1 face="Arial"><A href="Javascript: news(server,'uk/enter.html');" onMouseOver="MM_displayStatusMsg('English UK');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">English 
+                    <BR>
+                    UK</A></FONT></DIV>
+                </TD>
+                <TD width="36" height="14"> 
+                  <DIV align="center"><FONT size=-1 face="Arial"><A href="Javascript:news(server,'nv/enter.html')" onMouseOver="MM_displayStatusMsg('Norsk');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"> 
+                    <IMG src="images/flag_nv.gif" border=0 width="25" height="25" alt="Norsk"></A></FONT> 
+                  </DIV>
+                </TD>
+                <TD width="81" height="14"> 
+                  <DIV align="left"> <FONT size=-1 face="Arial"><A href="Javascript:news(server,'nv/enter.html')" onMouseOver="MM_displayStatusMsg('Norsk');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">Norsk</A></FONT></DIV>
+                </TD>
+              </TR>
+              <TR> 
+                <TD width="35" align="right"> 
+                  <DIV align="center"> <FONT size=-1 face="Arial"> <A href="Javascript:news(server,'dk/enter.html')" onMouseOver="MM_displayStatusMsg('Dansk');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"> 
+                    </A><A href="Javascript:news(server,'dk/enter.html')" onMouseOver="MM_displayStatusMsg('Dansk');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_dk.gif" border=0 alt="Dansk" width="25" height="25"></A> 
+                    </FONT> </DIV>
+                </TD>
+                <TD width="118" align="right"> 
+                  <DIV align="left"><FONT size=-1 face="Arial"><A href="Javascript:news(server,'dk/enter.html')" onMouseOver="MM_displayStatusMsg('Dansk');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">Dansk 
+                    </A></FONT></DIV>
+                </TD>
+                <TD width="36"> 
+                  <DIV align="center"><FONT size=-1 face="Arial"><A href="Javascript:news(server,'nv/enter.html')" onMouseOver="MM_displayStatusMsg('Norsk');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"> 
+                    </A><A href="Javascript:news(server,'es/enter.html')" onMouseOver="MM_displayStatusMsg('Espagnol');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_spain.gif" border=0 alt="Espa&ntilde;ol" width="30" height="30"></A></FONT></DIV>
+                </TD>
+                <TD width="81"> 
+                  <DIV align="left"> <FONT size=-1 face="Arial"><A href="Javascript:news(server,'es/enter.html')" onMouseOver="MM_displayStatusMsg('Espanol');return document.MM_returnValue" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">Español</A></FONT></DIV>
+                </TD>
+              </TR>
+              <TR> 
+                <TD width="35" align="right" height="13"> 
+                  <DIV align="center"> <FONT size=-1 face="Arial"><A href="Javascript:news(server,'all/enter.html')" onMouseOver="MM_displayStatusMsg('Deutsch');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_germany.gif" border=0 alt="Deutsch" width="30" height="30"></A> 
+                    </FONT></DIV>
+                </TD>
+                <TD width="118" align="right" height="13"> 
+                  <DIV align="left"><FONT size=-1 face="Arial"><A href="Javascript:news(server,'all/enter.html')" onMouseOver="MM_displayStatusMsg('Deutsch');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">Deutsch 
+                    </A></FONT></DIV>
+                </TD>
+                <TD width="36"> 
+                  <DIV align="center"><FONT size=-1 face="Arial"> <A href="Javascript:news(server,'es/enter.html')" onMouseOver="MM_displayStatusMsg('Espagnol');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"> 
+                    </A><A href="Javascript:news(server,'it/enter.html')" onMouseOver="MM_displayStatusMsg('Italian');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_italy.gif" border=0 alt="Italian" width="30" height="30"></A></FONT></DIV>
+                </TD>
+                <TD width="81"> 
+                  <DIV align="left"> <FONT size=-1 face="Arial"><A href="Javascript:news(server,'it/enter.html')" onMouseOver="MM_displayStatusMsg('Italiano');return document.MM_returnValue" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">Italiano</A></FONT></DIV>
+                </TD>
+              </TR>
+              <TR> 
+                <TD width="35" align="right"> 
+                  <DIV align="center"> <A href="Javascript:news(server,'cn/enter.html')" onMouseOver="MM_displayStatusMsg('Chinese');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_china.gif" border=0 alt="Chinese" width="25" height="25"></A> 
+                  </DIV>
+                </TD>
+                <TD width="118" align="right"> 
+                  <DIV align="left"><A href="Javascript:news(server,'cn/enter.html')" onMouseOver="MM_displayStatusMsg('Chinese');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"> 
+                    <IMG src="images/chinese_lang.gif" border="0" alt="Chinese" align="absmiddle"> 
+                    </A></DIV>
+                </TD>
+                <TD width="36"> 
+                  <DIV align="center"><FONT size=-1 face="Arial"> <A href="Javascript:news(server,'it/enter.html')" onMouseOver="MM_displayStatusMsg('Italian');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"> 
+                    </A>&nbsp;<A href="Javascript:news(server,'sw/enter.html')" onMouseOver="MM_displayStatusMsg('Svenska');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_sw.gif" border=0 alt="Svenska" width="25" height="25"></A></FONT> 
+                  </DIV>
+                </TD>
+                <TD width="81"> 
+                  <DIV align="left"> <FONT size=-1 face="Arial"><A href="Javascript:news(server,'sw/enter.html')" onMouseOver="MM_displayStatusMsg('Svenska');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">Svenska</A></FONT></DIV>
+                </TD>
+              </TR>
+              <TR> 
+                <TD width="35" align="right"> 
+                  <DIV align="center"> <FONT size=-1 face="Arial"><A href="Javascript:news(server,'nl/enter.html')" onMouseOver="MM_displayStatusMsg('Netherland');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"><IMG src="images/flag_netherland.gif" border=0 alt="Netherland" width="25" height="25" ></A> 
+                    </FONT> </DIV>
+                </TD>
+                <TD width="118" align="right"> 
+                  <DIV align="left"><FONT size=-1 face="Arial"><A href="Javascript:news(server,'nl/enter.html')" onMouseOver="MM_displayStatusMsg('Netherland');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;">Netherland</A></FONT> 
+                  </DIV>
+                </TD>
+                <TD width="36" align="left"><FONT size=-1 face="Arial"> <A href="Javascript:news(server,'sw/enter.html')" onMouseOver="MM_displayStatusMsg('Svenska');return document.MM_returnValue;" onMouseOut="MM_displayStatusMsg(' ');return document.MM_returnValue;"> 
+                  </A></FONT> </TD>
+                <TD width="81" align="left">&nbsp;</TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR> 
+          <TD align="right" valign="top" height="2"> 
+            <TABLE border="0" width="100%" cellspacing="0" cellpadding="0" vspace="0" hspace="0">
+              <TR> 
+                <TD valign="bottom"><FONT face="Verdana, Arial, Helvetica, sans-serif" size="1">This 
+                  site best viewed at 800x600, 16 Bit Color <BR>
+                  with <A href="http://www.microsoft.com/windows/ie/download/" onMouseOver="MM_displayStatusMsg('Internet Explorer');return document.MM_returnValue">I.E. 
+                  4</A> / <A href="http://home.netscape.com/computing/download/index.html" onMouseOver="MM_displayStatusMsg('Netscape Navigator');return document.MM_returnValue">Netscape 
+                  Navigator 4</A> or greater.</FONT></TD>
+                <TD align="right"><FONT face="Verdana, Arial, Helvetica, sans-serif" size="1"><IMG src="images/2.gif" width="91" height="59" align="texttop" name="two" alt="Choose your language" border="0"></FONT></TD>
+              </TR>
+            </TABLE>
+          </TD>
+          <TD align="center" valign="top" height="2"><BR>
+            <FONT face="Verdana, Arial, Helvetica, sans-serif" size="1"><FONT face="Verdana, Arial, Helvetica, sans-serif" size="4"><B>Choose 
+            your <I>language</I></B></FONT><FONT face="Verdana, Arial, Helvetica, sans-serif" size="4"><B><FONT size="5"><I></I></FONT></B></FONT> 
+            </FONT> </TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+<MAP name="map_select">
+  <AREA shape="poly" coords="81,0,57,47,78,87,123,88,161,33,161,0,81,1" alt="Click" href="javascript:euroselected();" onClick="MM_swapImage('document.map_noselect','document.map_noselect','images/map_euroselect.gif','MM_swapImage1')" onDblClick="MM_swapImage('document.map_noselect','document.map_noselect','images/map_noselect.gif','MM_swapImage2')">
+  <AREA shape="poly" coords="0,0,81,0,57,46,78,89,124,89,148,55,161,90,0,91,0,1" alt="Click" href="javascript:amerselected();"  onClick="MM_swapImage('document.map_noselect','document.map_noselect','images/map_amerselect.gif','MM_swapImage1')" onDblClick="MM_swapImage('document.map_noselect','document.map_noselect','images/map_noselect.gif','MM_swapImage2')">  
+  <AREA shape="default" href="#">
+</MAP>
+</BODY>
+</HTML>
+
