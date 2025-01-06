@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>DK 64 for Nintendo 64</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+
+<!--
+
+// browser test:
+
+agent = navigator.userAgent;
+
+browserVer = (agent.indexOf("Mozilla/3") == -1 &&
+
+agent.indexOf("Mozilla/4") == -1) ? 0 : 1;
+
+// - - - - - - - - - - - - - - - 
+
+if (browserVer == 1) {
+
+        gClick=" "
+
+	    nav_1 = new Image(150,33);
+		nav_1.src = "images/nav/navlow_02.gif";        
+		nav_1_on = new Image(150,33);
+		nav_1_on.src = "images/nav/navlow_02_on.gif";
+
+	    nav_2 = new Image(150,38);
+		nav_2.src = "images/nav/navlow_03.gif";        
+		nav_2_on = new Image(150,38);
+		nav_2_on.src = "images/nav/navlow_03_on.gif";
+
+	    nav_3 = new Image(150,34);
+		nav_3.src = "images/nav/navlow_04.gif";        
+		nav_3_on = new Image(150,34);
+		nav_3_on.src = "images/nav/navlow_04_on.gif";
+
+	    nav_4 = new Image(150,43);
+		nav_4.src = "images/nav/navlow_05.gif";        
+		nav_4_on = new Image(150,43);
+		nav_4_on.src = "images/nav/navlow_05_on.gif";
+
+	    nav_5 = new Image(150,41);
+		nav_5.src = "images/nav/navlow_06.gif";        
+		nav_5_on = new Image(150,41);
+		nav_5_on.src = "images/nav/navlow_06_on.gif";
+
+	    nav_6 = new Image(150,34);
+		nav_6.src = "images/nav/navlow_07.gif";        
+		nav_6_on = new Image(150,34);
+		nav_6_on.src = "images/nav/navlow_07_on.gif";
+}
+
+// - - - - - - - - - - - - - - - 
+
+function hiLite(imgDocID,imgObjName) {
+
+// manages mouseOver animations
+
+//   imgDocID - the name or number of the document image to be replaced
+
+//   imgObjName - the name of the image object to be swapped in
+
+if (browserVer == 1) {
+
+
+        if(imgDocID!=gClick)
+                document.images[imgDocID].src = eval(imgObjName + ".src")
+
+
+
+}
+}
+
+function setGlobal (imgDocID){
+	if (gClick!=" "){
+        document.images[gClick].src = eval(gClick + ".src")
+        }
+    gClick=imgDocID
+    document.images[gClick].src = eval(gClick + "_on.src")
+
+}
+
+// -->
+
+</script>
+</head>
+<body bgcolor="#FFFFFF" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<a href="home_content.html"  target="frame_content"><img src="images/nav/navlow_01.gif" alt="" width="150" height="81" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="primates_intro.html" target="frame_content" onmouseover="hiLite('nav_1','nav_1_on')" onmouseout="hiLite('nav_1','nav_1')" onClick="setGlobal('nav_1')"><img src="images/nav/navlow_02.gif" alt="" name="nav_1" width="150" height="33" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="basics_intro.html" target="frame_content" onmouseover="hiLite('nav_2','nav_2_on')" onmouseout="hiLite('nav_2','nav_2')" onClick="setGlobal('nav_2')"><img src="images/nav/navlow_03.gif" alt="" name="nav_2" width="150" height="38" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="villains_intro.html" target="frame_content" onmouseover="hiLite('nav_3','nav_3_on')" onmouseout="hiLite('nav_3','nav_3')" onClick="setGlobal('nav_3')"><img src="images/nav/navlow_04.gif" alt="" name="nav_3" width="150" height="34" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="strategy_intro.html" target="frame_content" onmouseover="hiLite('nav_4','nav_4_on')" onmouseout="hiLite('nav_4','nav_4')" onClick="setGlobal('nav_4')"><img src="images/nav/navlow_05.gif" alt="" name="nav_4" width="150" height="43" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="mystery_intro.html" target="frame_content" onmouseover="hiLite('nav_5','nav_5_on')" onmouseout="hiLite('nav_5','nav_5')" onClick="setGlobal('nav_5')"><img src="images/nav/navlow_06.gif" alt="" name="nav_5" width="150" height="41" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<a href="goodies_intro.html" target="frame_content" onmouseover="hiLite('nav_6','nav_6_on')" onmouseout="hiLite('nav_6','nav_6')" onClick="setGlobal('nav_6')"><img src="images/nav/navlow_07.gif" alt="" name="nav_6" width="150" height="34" border="0"></a></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="images/nav/navlow_08.gif" alt="" width="150" height="146" border="0"></td>
+	</tr>
+</table>
+</body>
+</html>
+<!-- 1999 POP! Multimedia...  http://www.popmultimedia.com/-->
