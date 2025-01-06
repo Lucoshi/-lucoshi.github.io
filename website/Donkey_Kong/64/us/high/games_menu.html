@@ -1,0 +1,117 @@
+
+<html>
+<head>
+<title>Donkey Kong 64 on Nintendo 64</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+
+<!--
+
+// browser test:
+
+agent = navigator.userAgent;
+
+browserVer = (agent.indexOf("Mozilla/3") == -1 &&
+
+agent.indexOf("Mozilla/4") == -1) ? 0 : 1;
+
+// - - - - - - - - - - - - - - - 
+
+if (browserVer == 1) {
+
+        gClick=" "
+
+	    nav_1 = new Image(162,83);
+		nav_1.src = "images/games/games_nav_01_off.gif";        
+		nav_1_on = new Image(162,83);
+		nav_1_on.src = "images/games/games_nav_01_on.gif";
+		nav_1_tv = new Image(162,121);
+		nav_1_tv.src = "images/games/games_konk_screen.gif";
+
+	    nav_2 = new Image(198,83);
+		nav_2.src = "images/games/games_nav_02_off.gif";        
+		nav_2_on = new Image(198,83);
+		nav_2_on.src = "images/games/games_nav_02_on.gif";
+		nav_2_tv = new Image(162,121);
+		nav_2_tv.src = "images/games/games_kremling_screen.gif";
+
+	    nav_3 = new Image(360,83);
+		nav_3.src = "images/games/games_nav_03_off.gif";        
+		nav_3_on = new Image(360,83);
+		nav_3_on.src = "images/games/games_nav_03_on.gif";
+		nav_3_tv = new Image(162,121);
+		nav_3_tv.src = "images/games/games_hoard_screen.gif";
+
+
+}
+
+// - - - - - - - - - - - - - - - 
+
+function hiLite(imgDocID,imgObjName) {
+
+// manages mouseOver animations
+
+//   imgDocID - the name or number of the document image to be replaced
+
+//   imgObjName - the name of the image object to be swapped in
+
+	if (browserVer == 1) {
+	
+        if(imgDocID!=gClick) {
+           document.images[imgDocID].src = eval(imgObjName + ".src");
+           
+           // Mouse over
+           if (imgObjName.indexOf("on") != -1) {
+           		       document.images['tv'].src = eval(imgDocID + "_tv.src");
+           // Mouse out
+		   } else {
+		   		       
+		       if (gClick == " ") { // Nothing selected yet
+				       document.images['tv'].src = "images/games/games_screen.gif";
+				       			   } else {
+				       			   			 document.images['tv'].src = eval(gClick + "_tv.src");  
+				       			   			 }
+		   }     
+		   }
+	}
+}
+
+function setGlobal (imgDocID){
+	if (gClick!=" "){
+        document.images[gClick].src = eval(gClick + ".src")
+        }
+    gClick=imgDocID
+    document.images[gClick].src = eval(gClick + "_on.src");
+	document.images['tv'].src = eval(gClick + "_tv.src");		
+}
+
+// -->
+
+</script>
+</head>
+<body bgcolor="#000000" text="#000000" link="#CC0000" alink="#FF0000" vlink="#0000CC" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+<table border="0" cellpadding="0" cellspacing="0" width="370">
+	<tr>
+		<td width="10" rowspan="4">
+			<img src="images/spacer.gif" alt="" width="10" height="1"></td>
+		<td width="360" nowrap>
+			<img src="images/spacer.gif" alt="" width="1" height="10"></td>
+	</tr>
+	<tr>
+		<td width="360" nowrap>
+			<img src="images/games/games_screen.gif" width="162" height="121" hspace="0" align=left name="tv">
+		    <img src="images/games/games_logo.gif" width="198" height="121" hspace="0"></td>
+	</tr>
+	<tr>
+		<td width="360" nowrap>
+			<a href="games_donkeykonk.html" target="frame_content" onmouseover="hiLite('nav_1','nav_1_on')" onmouseout="hiLite('nav_1','nav_1')"><IMG SRC="images/games/games_nav_01_off.gif" NAME="nav_1" WIDTH="162" HEIGHT="83" BORDER="0" HSPACE="0" ALIGN="left" ALT=""></a>
+		    <a href="games_kremling_pop.html" target="frame_content" onmouseover="hiLite('nav_2','nav_2_on')" onmouseout="hiLite('nav_2','nav_2')"><IMG SRC="images/games/games_nav_02_off.gif" NAME="nav_2" WIDTH="198" HEIGHT="83" BORDER="0" HSPACE="0" ALIGN="left" ALT=""></a></td>
+	</tr>
+	<tr>
+		<td width="360" nowrap>
+			<a href="games_hoardintro.html" target="frame_content" onmouseover="hiLite('nav_3','nav_3_on')" onmouseout="hiLite('nav_3','nav_3')"><IMG SRC="images/games/games_nav_03_off.gif" NAME="nav_3" WIDTH="360" HEIGHT="56" BORDER="0" HSPACE="0" ALIGN="left" ALT=""></a></td>
+	</tr>
+</table>
+</body>
+</html>
+<!-- 1999 POP! Multimedia...  http://www.popmultimedia.com/-->

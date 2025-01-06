@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>Donkey Kong 64 on Nintendo 64</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+
+<!--
+
+// browser test:
+
+agent = navigator.userAgent;
+
+browserVer = (agent.indexOf("Mozilla/3") == -1 &&
+
+agent.indexOf("Mozilla/4") == -1) ? 0 : 1;
+
+// - - - - - - - - - - - - - - - 
+
+if (browserVer == 1) {
+
+        gClick=" "
+
+	    nav_1 = new Image(360,50);
+		nav_1.src = "images/rapattack/rapattack_grandprize_off.gif";        
+		nav_1_on = new Image(360,50);
+		nav_1_on.src = "images/rapattack/rapattack_grandprize_on.gif";
+		nav_1_tv = new Image(162,121);
+		nav_1_tv.src = "images/rapattack/rapattack_screen_03.jpg";
+
+	    nav_2 = new Image(122,39);
+		nav_2.src = "images/rapattack/rapattack_run1_off.gif";        
+		nav_2_on = new Image(122,39);
+		nav_2_on.src = "images/rapattack/rapattack_run1_on.gif";
+		nav_2_tv = new Image(162,121);
+		nav_2_tv.src = "images/rapattack/rapattack_anderson.jpg";
+
+	    nav_3 = new Image(122,39);
+		nav_3.src = "images/rapattack/rapattack_run2_off.gif";        
+		nav_3_on = new Image(122,39);
+		nav_3_on.src = "images/rapattack/rapattack_run2_on.gif";
+		nav_3_tv = new Image(162,121);
+		nav_3_tv.src = "images/rapattack/rapattack_jamesharris.jpg";
+		
+		nav_4 = new Image(122,39);
+		nav_4.src = "images/rapattack/rapattack_run3_off.gif";        
+		nav_4_on = new Image(122,39);
+		nav_4_on.src = "images/rapattack/rapattack_run3_on.gif";
+		nav_4_tv = new Image(162,121);
+		nav_4_tv.src = "images/rapattack/rapattack_joshraymer.jpg";
+		
+		nav_5 = new Image(180,50);
+		nav_5.src = "images/rapattack/rapattack_run4_off.gif";        
+		nav_5_on = new Image(180,50);
+		nav_5_on.src = "images/rapattack/rapattack_run4_on.gif";
+		nav_5_tv = new Image(162,121);
+		nav_5_tv.src = "images/rapattack/rapattack_namisniak.jpg";
+		
+		nav_6 = new Image(180,50);
+		nav_6.src = "images/rapattack/rapattack_run5_off.gif";        
+		nav_6_on = new Image(180,50);
+		nav_6_on.src = "images/rapattack/rapattack_run5_on.gif";
+		nav_6_tv = new Image(162,121);
+		nav_6_tv.src = "images/rapattack/rapattack_peterorr.jpg";
+
+}
+
+// - - - - - - - - - - - - - - - 
+
+function hiLite(imgDocID,imgObjName) {
+
+// manages mouseOver animations
+
+//   imgDocID - the name or number of the document image to be replaced
+
+//   imgObjName - the name of the image object to be swapped in
+
+	if (browserVer == 1) {
+	
+        if(imgDocID!=gClick) {
+           document.images[imgDocID].src = eval(imgObjName + ".src");
+           
+           // Mouse over
+           if (imgObjName.indexOf("on") != -1) {
+           		       document.images['tv'].src = eval(imgDocID + "_tv.src");
+           // Mouse out
+		   } else {
+		   		       
+		       if (gClick == " ") { // Nothing selected yet
+				       document.images['tv'].src = "images/beatdown/beatdown_screen.gif";
+				       			   } else {
+				       			   			 document.images['tv'].src = eval(gClick + "_tv.src");  
+				       			   			 }
+		   }     
+		   }
+	}
+}
+
+function setGlobal (imgDocID){
+	if (gClick!=" "){
+        document.images[gClick].src = eval(gClick + ".src")
+        }
+    gClick=imgDocID
+    document.images[gClick].src = eval(gClick + "_on.src");
+	document.images['tv'].src = eval(gClick + "_tv.src");		
+}
+
+// -->
+
+</script>
+</head>
+<body bgcolor="#000000">
+<table border="0" cellpadding="0" cellspacing="0" width="370">
+	<tr>
+		<td width="10" rowspan="5">
+			<img src="images/spacer.gif" alt="" width="10" height="1"></td>
+		<td width="360" nowrap>
+			<img src="images/spacer.gif" alt="" width="1" height="10"></td>
+	</tr>
+	<tr>
+		<td width="360" nowrap>
+			<img src="images/beatdown/beatdown_screen.gif" width="162" height="121" hspace="0" align=left name="tv">
+		    <img src="images/rapattack/rapattack_logo.gif" width="198" height="121" hspace="0"></td>
+	</tr>
+	<tr>
+		<td width="360" nowrap>
+			<a href="rapattack_winner.html" target="frame_content" onmouseover="hiLite('nav_1','nav_1_on')" onmouseout="hiLite('nav_1','nav_1')"><img src="images/rapattack/rapattack_grandprize_off.gif"  name="nav_1" width="360" height="50" border="0" hspace="0" align=left></a></td>
+	</tr>
+	<tr>
+		<td width="360" nowrap><a href="rapattack_runner1.html" target="frame_content" onmouseover="hiLite('nav_2','nav_2_on')" onmouseout="hiLite('nav_2','nav_2')"><img src="images/rapattack/rapattack_run1_off.gif" name="nav_2" width="122" height="39" border="0" hspace="0" align="left"></a><a href="rapattack_runner2.html" target="frame_content" onmouseover="hiLite('nav_3','nav_3_on')" onmouseout="hiLite('nav_3','nav_3')"><img src="images/rapattack/rapattack_run2_off.gif" name="nav_3" width="106" height="39" border="0" hspace="0"></a><a href="rapattack_runner3.html" target="frame_content" onmouseover="hiLite('nav_4','nav_4_on')" onmouseout="hiLite('nav_4','nav_4')"><img src="images/rapattack/rapattack_run3_off.gif" name="nav_4" width="132" height="39" border="0" hspace="0"></a></td>
+	</tr>
+	<tr>
+		<td width="360" nowrap>
+			<a href="rapattack_runner4.html" target="frame_content" onmouseover="hiLite('nav_5','nav_5_on')" onmouseout="hiLite('nav_5','nav_5')"><img src="images/rapattack/rapattack_run4_off.gif" name="nav_5" width="180" height="50" border="0" hspace="0" align="left"></a>
+			<a href="rapattack_runner5.html" target="frame_content" onmouseover="hiLite('nav_6','nav_6_on')" onmouseout="hiLite('nav_6','nav_6')"><img src="images/rapattack/rapattack_run5_off.gif" name="nav_6" width="180" height="50" border="0" hspace="0"></a></td>
+	</tr>
+</table>
+</body>
+</html>
+<!-- 1999 POP! Multimedia...  http://www.popmultimedia.com/-->
