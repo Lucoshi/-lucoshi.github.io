@@ -9,5 +9,5 @@ For preservation, also because there are a lot of troublesome trolls in preserva
 Of course, Why not!
 ## Anything you have done?
 
-[https://lucoshi.github.io/website/Donkey Kong/64/index.html]
+[https://lucoshi.github.io/website/Donkey_Kong/64/index.html]
 [https://lucoshi.github.io/website/Wario/Land/4/splash.html]
