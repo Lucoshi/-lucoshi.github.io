@@ -8,5 +8,5 @@ It is for preservation, also because there are a lot of troublesome trolls in pr
 ## May I help you?
 Of course, Why not?
 ## Anything you have done?
-**[Donkey Kong 64] (https://lucoshi.github.io/website/Donkey_Kong/64/index.html)
-**[Wario Land 4] (https://lucoshi.github.io/website/Wario/Land/4/splash.html)
+[Donkey Kong 64](https://lucoshi.github.io/website/Donkey_Kong/64/index.html)
+[Wario Land 4](https://lucoshi.github.io/website/Wario/Land/4/splash.html)
