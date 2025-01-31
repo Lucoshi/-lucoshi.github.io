@@ -1,113 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game-like Website Demo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  <style>
-    /* General Body Styling */
-    body {
-      font-family: 'Press Start 2P', cursive; /* Pixelated font */
-      background-color: #1a1a2e; /* Dark game-like background */
-      color: #fff;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-
-    h1 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-
-    /* Collectible Items */
-    .collectible {
-      width: 50px;
-      height: 50px;
-      background: url('https://cdn-icons-png.flaticon.com/512/833/833314.png') no-repeat center center;
-      background-size: cover;
-      position: relative;
-      animation: bounce 1s infinite ease-in-out;
-      cursor: pointer;
-      margin: 10px;
-    }
-
-    @keyframes bounce {
-      0%, 100% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-10px);
-      }
-    }
-
-    /* Hidden Secret Areas */
-    .secret-area {
-      width: 200px;
-      height: 100px;
-      background-color: #444;
-      border: 2px dashed #888;
-      position: relative;
-      overflow: hidden;
-      cursor: pointer;
-      margin: 20px 0;
-    }
-
-    .secret-area:hover::after {
-      content: "You've found a secret!";
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 16px;
-      background: rgba(0, 0, 0, 0.8);
-      color: #ff0;
-      padding: 10px;
-      border-radius: 5px;
-      text-align: center;
-      z-index: 10;
-    }
-
-    /* Button-like Interaction */
-    .button {
-      padding: 10px 20px;
-      background: linear-gradient(45deg, #ff6b6b, #f94d6a);
-      color: #fff;
-      font-size: 16px;
-      text-transform: uppercase;
-      border: none;
-      cursor: pointer;
-      transition: transform 0.2s ease, background 0.3s ease;
-      margin-top: 20px;
-    }
-
-    .button:hover {
-      background: linear-gradient(45deg, #f94d6a, #ff6b6b);
-      transform: scale(1.1);
-    }
-
-    .collectibles-container {
-      display: flex;
-      gap: 10px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage Select</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Game-like Website Demo</h1>
-  <div class="collectibles-container">
-    <div class="collectible" title="Collectible 1"></div>
-    <div class="collectible" title="Collectible 2"></div>
-    <div class="collectible" title="Collectible 3"></div>
-  </div>
-  
-  <div class="secret-area" title="Hover to find the secret"></div>
-
-  <button class="button">Click Me!</button>
+    <div class="stage-select">
+        <div class="stage" id="stage1">
+            <h2>Stage 1</h2>
+        </div>
+        <div class="stage" id="stage2">
+            <h2>Stage 2</h2>
+        </div>
+        <div class="stage" id="stage3">
+            <h2>Stage 3</h2>
+        </div>
+        <!-- Add more stages as needed -->
+    </div>
 </body>
 </html>
