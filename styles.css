@@ -23,11 +23,6 @@ body {
   text-align: center;
 }
 
-.stage img {
-  width: 100%;
-  height: auto;
-}
-
 .stage:hover {
   transform: scale(1.05);
 }
