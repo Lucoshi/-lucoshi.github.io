@@ -80,9 +80,3 @@ body {
   background: linear-gradient(45deg, #f94d6a, #ff6b6b);
   transform: scale(1.1);
 }
-/* Container for the grid */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Creates four equal columns */
-  gap: 10px; /* Adjust the gap between items as needed */
-}
