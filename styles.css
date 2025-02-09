@@ -1,11 +1,20 @@
 /* General Body Styling */
 body {
   font-family: 'Press Start 2P', cursive; /* Pixelated font */
-  background-color: #1a1a2e; /* Dark game-like background */
-  color: #fff;
-  margin: 0;
-  padding: 0;
-  display: flex;
+  
+/* Container for the grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates four equal columns */
+  gap: 10px; /* Adjust the gap between items as needed */
+}
+
+/* Example item styling */
+.grid-item {
+  background-color: #1a1a2e; /* Example background color */
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
 /* Collectible Items */
