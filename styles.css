@@ -86,11 +86,3 @@ body {
   grid-template-columns: repeat(4, 1fr); /* Creates four equal columns */
   gap: 10px; /* Adjust the gap between items as needed */
 }
-
-/* Example item styling */
-.grid-item {
-  background-color: #444; /* Example background color */
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
