@@ -6,10 +6,21 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
+}
+
+/* Container for the grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates four equal columns */
+  gap: 10px; /* Adjust the gap between items as needed */
+}
+
+/* Example item styling */
+.grid-item {
+  background-color: #444; /* Example background color */
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 
 /* Collectible Items */
