@@ -2,7 +2,6 @@
 body {
   font-family: 'Press Start 2P', cursive; /* Pixelated font */
   background-color: #1a1a2e; /* Dark game-like background */
-  color: #fff;
   margin: 0;
   padding: 0;
   display: flex;
